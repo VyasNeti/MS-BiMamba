@@ -1,0 +1,25 @@
+__pycache__/
+*.pyc
+*.pyo
+
+# Env
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/
+
+# Training artifacts / caches
+*.log
+logs/
+outputs/
+*.npz
+
+# Dataset (don't commit raw .mat files)
+*.mat
