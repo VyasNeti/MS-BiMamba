@@ -21,7 +21,7 @@ The `SelectiveSSM` module is a pure PyTorch re-implementation of the Mamba S6 me
 .
 ├── config.py               # All configuration (data, model, training) as dataclasses
 ├── dataset.py               # .mat loading, windowing, SBP/DBP labeling, train/val/test splits
-├── model.py                  # MedMambaReg model definition
+├── model.py                  # MS-BiMamba model definition
 ├── modules.py                 # Building blocks: BiMambaBlock, SelectiveSSM, fusion, pooling, etc.
 ├── losses.py                   # Weighted MSE loss for SBP/DBP
 ├── trainer.py                   # Training loop, checkpointing, early stopping
