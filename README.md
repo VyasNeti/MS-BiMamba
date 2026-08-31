@@ -79,6 +79,8 @@ Computes mean/std error against the AAMI criterion (mean ≤ 5 mmHg, std ≤ 8 m
 
 ## Results
 
+**Model size:** approximately 2.71 million trainable parameters.
+
 Current test-set performance (see [results/](results/)):
 
 | Metric | SBP | DBP |
